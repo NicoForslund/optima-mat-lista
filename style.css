@@ -1,0 +1,21 @@
+.textbox {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    display: block;
+    align-self: auto;
+    background-color: rgb(221, 159, 25);
+    padding-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+}
+
+.navbaren {
+    position: fixed;
+}
+
+.mainbox {
+    float: left;
+}
+
+.matlistan {}
