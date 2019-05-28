@@ -1,7 +1,5 @@
 body {
-    background-image: url(img\handledare_b.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #f79422;
 }
 
 ul {}
@@ -14,4 +12,9 @@ ul {}
 
 h5 {
     color: #f79422;
+}
+
+#img {
+    display: flex;
+    justify-content: center
 }
