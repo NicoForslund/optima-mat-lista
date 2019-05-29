@@ -4,10 +4,11 @@ body {
 
 ul {}
 
+
 .text,
 .card-deck {
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 h5 {
@@ -17,4 +18,21 @@ h5 {
 #img {
     display: flex;
     justify-content: center
+}
+
+
+
+@media (max-width: 650px) {
+
+
+    .card-deck,
+    .text {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .card-deck {
+        justify-content: center;
+    }
 }
